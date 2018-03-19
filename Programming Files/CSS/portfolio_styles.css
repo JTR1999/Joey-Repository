@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Mina');
+body {
+    background: linear-gradient(to bottom, #66ffff 38%, #ffffff 100%);
+    background-repeat: repeat-x;
+    background-size: 100%;
+}
+.bodytext {
+    text-align: center;
+    background: #6f6fff;
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.resumeedu {
+    font-family: 'Mina', sans-serif;
+}
+.resumevol {
+    font-family: 'Mina', sans-serif;
+}
+.resumeex {
+    font-family: 'Mina', sans-serif;
+}
+.resumeskill {
+    font-family: 'Mina', sans-serif;
+}
+.navlist {
+    list-style: none;
+    
+}
+p {
+    font-family: 'Mina', sans-serif;
+}
+h1 {
+    font-family: 'Arvo', serif;
+}
