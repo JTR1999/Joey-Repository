@@ -1,35 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Mina');
 body {
-    background: linear-gradient(to bottom, #66ffff 38%, #ffffff 100%);
+    background: linear-gradient(to bottom, #66ffff 0%, #ffffff 100%);
     background-repeat: repeat-x;
-    background-size: 100%;
 }
 .bodytext {
     text-align: center;
-    background: #6f6fff;
+    background: rgb(54, 147, 255);
     border-style: solid;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.button {
+    font-family: 'Mina', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(54, 147, 255);
+    border-style: solid;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0%, 5%;
+}
+.aboutme {
+    background: rgb(54, 147, 255);
+    border-style: solid;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .resumeedu {
     font-family: 'Mina', sans-serif;
+    list-style: none;
 }
 .resumevol {
     font-family: 'Mina', sans-serif;
+    list-style: none;
 }
 .resumeex {
     font-family: 'Mina', sans-serif;
+    list-style: none;
 }
 .resumeskill {
     font-family: 'Mina', sans-serif;
+    list-style: none;
 }
 .navlist {
     list-style: none;
-    
+    text-decoration: none;
 }
 p {
     font-family: 'Mina', sans-serif;
 }
 h1 {
+    font-family: 'Arvo', serif;
+    text-decoration: underline;
+}
+h2 {
     font-family: 'Arvo', serif;
 }
