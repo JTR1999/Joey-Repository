@@ -9,29 +9,8 @@ main {
     background: rgba(45, 142, 203, 0.74);
     padding-bottom: 3%;
 }
-.button {
-    font-family: 'Mina', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    background: rgb(54, 147, 255);
-    border-style: solid;
-    border-radius: 20%;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10%, 5%;
-}
-.buttongroup {
-    margin-left: 37%
-}
 .titlespace {
     margin-left: 5.5%;
-}
-.lettersize {
-    max-height: 800px;
-}
-.resumeedu {
-    font-family: 'Arvo', serif;
-    list-style: none;
 }
 .footer {
     text-align: right;
@@ -41,10 +20,76 @@ main {
     width: 100%;
     font-size: 16px;
 }
-.flex-container {
-    display: flex;
+.imgspace {
+    margin-left: 3%;
+    max-width: 800px;
 }
-.resumevol {
+.titlestyle {
+    text-align: center;
+    font-family: 'Mina', sans-serif;
+}
+p {
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h1 {
+    font-family: 'Mina', sans-serif;
+    text-decoration: underline;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+h2 {
+    font-family: 'Mina', sans-serif;
+    text-decoration: underline;
+    margin-left: 3%;
+}
+h3 {
+    font-family: 'Mina', sans-serif;
+    text-decoration: underline;
+    margin-left: 3%;
+}
+.smoltext {
+    text-align: center;
+}
+/*Home Page*/
+.flex-container_h {
+    
+}
+.button {
+    font-family: 'Mina', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(54, 147, 255);
+    border-style: solid;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10%, 10%;
+}
+.buttongroup {
+    margin-left: 37%
+}
+/*About Me*/
+.flex-container_h {
+    
+}
+/*Resume*/
+.flex-container_a {
+    
+}
+.lettersize {
+    max-height: 800px;
+}
+.resumeedu {
+    font-family: 'Arvo', serif;
+    list-style: none;
+}
+.resumelist {
+    list-style: none;
+}
+.resumeskill {
     font-family: 'Arvo', serif;
     list-style: none;
 }
@@ -52,20 +97,25 @@ main {
     font-family: 'Arvo', serif;
     list-style: none;
 }
-.imgspace {
-    margin-left: 3%;
-    max-width: 800px;
-}
-.resumeskill {
+.resumevol {
     font-family: 'Arvo', serif;
     list-style: none;
 }
-.titlestyle {
-    text-align: center;
-    font-family: 'Mina', sans-serif;
+/*Web Projects*/
+.flex-container_web {
+    
 }
-.resumelist {
-    list-style: none;
+/*Writing*/
+.flex-container_w {
+    
+}
+/*Contact*/
+.flex-container_c {
+    
+}
+/*Navigation*/
+.flex-container_n {
+    display: flex;
 }
 .navlist {
     font-family: 'Mina', sans-serif;
@@ -94,30 +144,23 @@ main {
 .navlist:last-child {
     border-right: none;
 }
-p {
-    font-family: 'Arvo', serif;
-    font-size: 20px;
-    margin-left: 4%;
-    margin-right: 4%;
+.l1 {
+    order: 1;
 }
-h1 {
-    font-family: 'Mina', sans-serif;
-    text-decoration: underline;
-    margin-left: 1%;
-    margin-top: 5%;
+.l2 {
+    order: 2;
 }
-h2 {
-    font-family: 'Mina', sans-serif;
-    text-decoration: underline;
-    margin-left: 3%;
+.l3 {
+    order: 3;
 }
-h3 {
-    font-family: 'Mina', sans-serif;
-    text-decoration: underline;
-    margin-left: 3%;
+.l4 {
+    order: 4;
 }
-.smoltext {
-    text-align: center;
+.l5 {
+    order: 5;
+}
+.l6 {
+    order: 6;
 }
 /*Slideshow CSS*/
 .slideshow {
@@ -167,8 +210,8 @@ h3 {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
-    background-color: #717171;
+.active {
+    background-color: #2e7080;
 }
 
 
