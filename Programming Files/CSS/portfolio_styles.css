@@ -41,6 +41,9 @@ main {
     width: 100%;
     font-size: 16px;
 }
+.flex-container {
+    display: flex;
+}
 .resumevol {
     font-family: 'Arvo', serif;
     list-style: none;
@@ -65,12 +68,28 @@ main {
     list-style: none;
 }
 .navlist {
+    font-family: 'Mina', sans-serif;
     list-style-type: none;
+    text-align: center;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     display: inline;
     background-color: cornflowerblue;
     border-right: 1px, solid, gray;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+}
+.navlist a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navlist a:hover {
+    background-color: #a7bee6;
 }
 .navlist:last-child {
     border-right: none;
@@ -109,14 +128,7 @@ h3 {
 .slideclass {
     display: none;
 }
-.slidenum {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-.slidetext {
+.caption {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
