@@ -34,6 +34,7 @@ p {
     margin-left: 4%;
     margin-right: 4%;
 }
+
 h1 {
     font-family: 'Mina', sans-serif;
     text-decoration: underline;
@@ -102,7 +103,7 @@ h3 {
     list-style: none;
 }
 /*Web Projects*/
-.flex-container_web {
+.flex-container_web { /*Just in case*/
     
 }
 /*Writing*/
@@ -116,6 +117,8 @@ h3 {
 /*Navigation*/
 .flex-container_n {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .navlist {
     font-family: 'Mina', sans-serif;
@@ -137,6 +140,7 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    color: black;
 }
 .navlist a:hover {
     background-color: #a7bee6;
@@ -162,6 +166,7 @@ h3 {
 .l6 {
     order: 6;
 }
+
 /*Slideshow CSS*/
 .slideshow {
     max-width: 1000px;
