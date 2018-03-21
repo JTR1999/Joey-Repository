@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Joseph Rose's Web Projects</title>
     <link rel="stylesheet" href="../CSS/portfolio_styles.css">
+    <script src="../JavaScript/portfolioScript.js"></script>
     <a href="index.html"><img src="http://via.placeholder.com/75x75"></a>
     <ul class="navlist">
         <li><a href="index.html">Home</a></li>
@@ -17,9 +18,36 @@
 <body>
 <main>
 <h1>Website Projects</h1>
-        <p class="smoltext">Here I have a few examples of website projects I have worked on.</p>
-        <div>
-            
+        <p class="smoltext">I have provided a few examples of website projects I have made on this page.</p>
+        <div class="slideshow">
+            <div class="slideclass fade">
+                <div class="slidenum">1/4</div>
+                <img src="Images/Home%20Page1.PNG" alt="" width="100%">
+                <div class="slidetext">Main Page Part 1</div>
+            </div>
+            <div class="slideclass fade">
+                <div class="slidenum">2/4</div>
+                <img src="Images/Home%20Page2.PNG" alt="" width="100%">
+                <div class="slidetext">Main Page Part 2</div>
+            </div>
+            <div class="slideclass fade">
+                <div class="slidenum">3/4</div>
+                <img src="Images/Prevention%20Page1.PNG" alt="" width="100%">
+                <div class="slidetext">Prevention Page Part 1</div>
+            </div>
+            <div class="slideclass fade">
+                <div class="slidenum">4/4</div>
+                <img src="Images/Prevention%20Page2.PNG" alt="" width="100%">
+                <div class="slidetext">Prevention Page Part 2</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
         </div>
         <p>Here are several screenshots of a website I helped make on cyberbullying. I have provided links to the pages I created <a href="http://cartwebapp.com/student17/showcase/am/CB-home.html">here</a> and <a href="http://cartwebapp.com/student17/showcase/am/CB-prevention.html">here</a></p>
         <img src="Images/homePageCode.PNG" alt="" class="imgspace">
