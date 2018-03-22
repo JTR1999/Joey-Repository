@@ -67,7 +67,8 @@ h3 {
     border-radius: 20%;
     text-decoration: none;
     padding: 10px;
-    margin: 10%, 10%;
+    margin: 10%, 20%;
+    color: black;
 }
 .buttongroup {
     margin-left: 37%
@@ -130,7 +131,6 @@ h3 {
     display: inline;
     background-color: cornflowerblue;
     border-right: 1px, solid, gray;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     color: white;
