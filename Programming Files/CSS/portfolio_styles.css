@@ -20,7 +20,7 @@ main {
 }
 .headerspace {
     margin-left: 4%;
-    padding-top: 2%;
+    margin-top: 3%;;
 }
 .footer {
     text-align: right;
@@ -57,12 +57,22 @@ h3 {
     text-decoration: underline;
     margin-left: 3%;
 }
+a:link {
+    color: black;
+}
+a:hover {
+    color: #70b5b5;
+}
+a:visited {
+    color: black;
+}
 .smoltext {
     text-align: center;
 }
 /*Home Page*/
 .flex-container_h {
-    
+    display: flex;
+    flex-direction: column;
 }
 .homebody {
     display: flex;
@@ -98,11 +108,13 @@ h3 {
 }
 /*About Me*/
 .flex-container_h {
-    
+    display: flex;
+    flex-direction: column;
 }
 /*Resume*/
 .flex-container_a {
-    
+    display: flex;
+    flex-direction: column;
 }
 .lettersize {
     max-height: 550px;
@@ -143,11 +155,19 @@ h3 {
 
 /*Web Projects*/
 .flex-container_web {
-    
+    display: flex;
+    flex-direction: column;
+}
+.web-explain {
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 /*Writing*/
 .flex-container_w {
-    
+    display: flex;
+    flex-direction: column;
 }
 .picsize {
     width: 500px;
@@ -158,9 +178,10 @@ h3 {
 }
 .i2 {
     order: 2;
+    text-align: justify;
     margin-top: 10%;
     margin-bottom: 40%;
-    width: 90%;
+    width: 80%;
 }
 .i3 {
     order: 3;
@@ -168,20 +189,23 @@ h3 {
 }
 .i4 {
     order: 4;
-    margin-top: 40%;
-    width: 90%;
+    margin-top: 50%;
+    text-align: justify;
+    width: 80%;
 }
 .i5 {
     order: 5;
 }
 .i6 {
     order: 6;
-    width: 90%;
+    text-align: justify;
+    margin-top: 50%;
+    width: 80%;
 }
 .writingbody {
     display: flex;
     width: 1280px;
-    margin-left: 4%;
+    margin-left: 5%;
 }
 .writingpic {
     flex-direction: column;
@@ -191,6 +215,10 @@ h3 {
     margin-left: 4%;
 }
 /*Contact*/
+.flex-container_c {
+    display: flex;
+    flex-direction: column;
+}
 .dropbutton {
     background-color: #56addb;
     color: black;
@@ -238,20 +266,21 @@ h3 {
     background-color: #d1d1d1
 }
 /*Slideshow*/
-#slideshow {
+#slides {
     position: relative;
+    width: 100%;
     height: 300px;
     padding: 0px;
-    margin: 0px;
+    margin-left: 15%;
+    margin-bottom: 10%;
     list-style-type: none;
 }
 
 .slide {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
+    margin-bottom: 0;
+    padding: 0;
+    width: 70%;
     opacity: 0;
     z-index: 1;
     -webkit-transition: opacity 1s;
@@ -264,10 +293,21 @@ h3 {
     opacity: 1;
     z-index: 2;
 }
-.slideimg {
-    width: 100%;
-}
 
+.slideButtons {
+    flex-direction: row;
+    position: relative;
+    margin-left: 43%;
+    margin-top: 3%;
+    cursor: pointer;
+    z-index: 10;
+}
+.buttons {
+    display: none;
+}
+button {
+    font-family: 'Arvo', serif;
+}
 
 
 
