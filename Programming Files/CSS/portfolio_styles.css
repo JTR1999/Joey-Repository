@@ -17,10 +17,11 @@ main {
     font-size: 30px;
     margin-left: 2%;
     text-decoration: underline;
+    width: 100%;
 }
 .headerspace {
     margin-left: 4%;
-    margin-top: 3%;;
+    margin-top: 3%;
 }
 .footer {
     text-align: right;
@@ -112,9 +113,12 @@ a:visited {
     flex-direction: column;
 }
 /*Resume*/
-.flex-container_a {
+.flex-container_r {
     display: flex;
     flex-direction: column;
+}
+.contactr {
+    line-height: 1.6;
 }
 .lettersize {
     max-height: 550px;
@@ -152,6 +156,11 @@ a:visited {
     list-style: none;
     font-family: 'Arvo', serif;
 }
+.letterdiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}
 
 /*Web Projects*/
 .flex-container_web {
@@ -179,9 +188,10 @@ a:visited {
 .i2 {
     order: 2;
     text-align: justify;
-    margin-top: 10%;
-    margin-bottom: 40%;
+    margin-top: 13%;
+    margin-bottom: 35%;
     width: 80%;
+    line-height: 1.6;
 }
 .i3 {
     order: 3;
@@ -189,9 +199,10 @@ a:visited {
 }
 .i4 {
     order: 4;
-    margin-top: 50%;
+    margin-top: 45%;
     text-align: justify;
     width: 80%;
+    line-height: 1.6;
 }
 .i5 {
     order: 5;
@@ -199,8 +210,9 @@ a:visited {
 .i6 {
     order: 6;
     text-align: justify;
-    margin-top: 50%;
+    margin-top: 40%;
     width: 80%;
+    line-height: 1.6;
 }
 .writingbody {
     display: flex;
