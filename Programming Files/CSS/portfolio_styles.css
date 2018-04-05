@@ -318,8 +318,9 @@ input[type=submit]:hover {
     display: none;
     width: 100%;
 }
-slideimg {
-    width: 70px;
+img {
+    width: 90%;
+    margin-left: 5%;
 }
 .prev, .next {
     cursor: pointer;
