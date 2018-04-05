@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../CSS/portfolio_styles.css">
     <div class="headeredit">
         <a href="index.html"><img src="Images/Website%20Logo.png"></a>
-        <a href="index.html"><p class="title">Joseph Rose's Portfolio</p></a>
+        <a href="index.html" class="exlink"><p class="title">Joseph Rose's Portfolio</p></a>
     </div>
     <div class="dropdown">
         <button class="dropbutton">Menu</button>
@@ -25,18 +25,18 @@
     <h1 class="headerspace">Contact Information</h1>
         <p>
             Thank you for taking the time to look through my work. If you wish to contact me for business or employment reasons, here are some ways to contact me: <br><br>
-            <a href="https://www.linkedin.com/in/joseph-t-rose/" target="_blank">My LinkedIn</a> <br><br> Email: joeyrose3@gmail.com
+            <a href="https://www.linkedin.com/in/joseph-t-rose/" target="_blank" class="exlink">My LinkedIn</a> <br><br> Email: joeyrose3@gmail.com
         </p>
         <div class="container">
-            <form action="/action_page.php">
-              <label for="name">Name</label>
+            <form action="mailto:joeyrose3@gmail.com" method="post" enctype="text/plain">
+              <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Your Name">
 
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Your Email">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="Your Email"><br><br>
 
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <label for="subject">Subject:</label>
+              <textarea id="subject" name="subject" placeholder="Write your message" style="height:200px"></textarea>
 
               <input type="submit" value="Submit">
             </form>

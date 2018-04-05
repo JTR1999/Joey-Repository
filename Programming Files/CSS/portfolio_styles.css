@@ -58,13 +58,13 @@ h3 {
     text-decoration: underline;
     margin-left: 3%;
 }
-a:link {
+.exlink:link {
     color: black;
 }
-a:visited {
+.exlink:visited {
     color: black;
 }
-a:hover {
+.exlink:hover {
     color: #717171;
 }
 .smoltext {
@@ -244,7 +244,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #5ebfea;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -253,13 +253,15 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4797db;
 }
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /*Navigation*/
 .dropbutton {
