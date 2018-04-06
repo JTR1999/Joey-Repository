@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Joseph Rose's Contact Info</title>
     <link rel="stylesheet" href="../CSS/portfolio_styles.css">
+    <script src="../JavaScript/portfolioScript.js"></script>
     <div class="headeredit">
         <a href="index.html"><img src="Images/Website%20Logo.png"></a>
         <a href="index.html" class="exlink"><p class="title">Joseph Rose's Portfolio</p></a>
@@ -31,12 +32,12 @@
             <form name="contact" action="mailto:someone@example.com" method="post" enctype="text/plain">
                 <div class="formboxes">
                     Name:<br>
-                    <input type="text" name="name" id="name" placeholder="*required" required><br><br>
+                    <input type="text" name="name" id="name" placeholder="Your name here" required><br><br>
                     E-mail:<br>
-                    <input type="text" name="email" id="email" placeholder="*required" required><br><br>
+                    <input type="text" name="email" id="email" placeholder="Your email here" required><br><br>
                     Subject:<br>
-                    <textarea name="subject" id="subject" cols="100" rows="10" placeholder="*required" required></textarea><br><br>
-                    <input type="submit" value="Send" onclick="validateForm();">
+                    <textarea name="subject" id="subject" cols="100" rows="10" placeholder="Type your subject" required></textarea><br><br>
+                    <input type="submit" value="Send" onclick="validateForm()">
                     <input type="reset" value="Reset">
                 </div>
             </form>
