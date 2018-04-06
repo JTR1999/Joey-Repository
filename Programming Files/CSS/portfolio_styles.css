@@ -359,7 +359,27 @@ img {
 }
 
 /*Media Queries*/
+@media screen and (max-width: 480px) {
+    .flex-container_h {
+        display: flex;
+        flex-direction: column;
+    }
+    .p1 {
+        order: 3;
+        width: 100%;
+    }
+    .p2 {
+        order: 1;
+        width: 100%;
+    }
+    .p3 {
+        order: 2;
+    }
+}
 
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+    
+}
 
 
 
