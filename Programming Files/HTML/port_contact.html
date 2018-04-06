@@ -27,19 +27,18 @@
             Thank you for taking the time to look through my work. If you wish to contact me for business or employment reasons, here are some ways to contact me: <br><br>
             <a href="https://www.linkedin.com/in/joseph-t-rose/" target="_blank" class="exlink">My LinkedIn</a> <br><br> Email: joeyrose3@gmail.com
         </p>
-        <div class="container">
-           <h3 class="contacthead">Send me and email here.</h3>
-            <form action="mailto:joeyrose3@gmail.com" method="post" enctype="text/plain">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" placeholder="Your Name">
-
-              <label for="email">Email:</label>
-              <input type="text" id="email" name="email" placeholder="Your Email"><br><br>
-
-              <label for="subject">Subject:</label>
-              <textarea id="subject" name="subject" placeholder="Write your message" style="height:200px"></textarea>
-
-              <input type="submit" value="Submit">
+        <div class="contactform" id="contact">
+            <form name="contact" action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <div class="formboxes">
+                    Name:<br>
+                    <input type="text" name="name" id="name" placeholder="*required" required><br><br>
+                    E-mail:<br>
+                    <input type="text" name="email" id="email" placeholder="*required" required><br><br>
+                    Subject:<br>
+                    <textarea name="subject" id="subject" cols="100" rows="10" placeholder="*required" required></textarea><br><br>
+                    <input type="submit" value="Send" onclick="validateForm();">
+                    <input type="reset" value="Reset">
+                </div>
             </form>
         </div>
     </main>
