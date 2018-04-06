@@ -263,6 +263,9 @@ input[type=submit]:hover {
     margin-left: 5%;
     margin-right: 5%;
 }
+.contacthead {
+    text-align: center;
+}
 /*Navigation*/
 .dropbutton {
     background-color: #56addb;
@@ -378,6 +381,7 @@ img {
     from {opacity: .4} 
     to {opacity: 1}
 }
+
 
 
 
